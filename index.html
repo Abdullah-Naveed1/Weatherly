@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weatherly</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="images/weather_icon_background_removed.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <main>
+        <div class="big-container">
+            <div class="container">
+                <h1>Weatherly</h1>
+                <h2>Accurate Weather Forecasts</h2>
+                <div class="find">
+                    <div class="search" id="search-box">
+                        <input id="city-input" type="text" placeholder="Search City">
+                    </div>
+                    <button type="submit" class="search" id="search-button"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="text" id="city-name">--</div>
+                <div class="text" id="temperature">--</div>
+                <div class="text" id="feedback">--</div>
+                <div class="text" id="humidity">--</div>
+                <div id="feels-like">--</div>
+                <div id="pressure">--</div>
+                <div class="text" id="wind">--</div>
+                <div class="text" id="temperature-unit">
+                    <span id="celcius" class="option active">°C</span>
+                    <span class="divider">|</span>
+                    <span id="fahrenheit" class="option">°F</span>
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js" defer></script>
+    </main>
+</body>
+
+</html>
